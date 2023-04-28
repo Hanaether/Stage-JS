@@ -1,0 +1,125 @@
+.info-container {
+  background-color: none;
+  color: gray;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin: auto;
+  width: 70%;
+}
+
+
+
+/*---------------------------------------------------*/
+
+.nav-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav li {
+    margin-right: 10px;
+  }
+  
+  .nav a {
+    color: #333333;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .nav a:hover {
+    background-color: #b76bb7;
+    color: #ffffff;
+  }
+  
+  .active a {
+    background-color: #b76bb7;
+    color: #ffffff;
+  }
+  
+  .nav a:first-child {
+    margin-left: 0;
+  }
+  
+  .nav a:last-child {
+    margin-right: 0;
+  }
+  
+  .nav a:not(:last-child) {
+    margin-right: 10px;
+  }
+
+
+/*-------------------------------------------------*/
+
+
+.select-container {
+    background-color: #d89bd8;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 10px auto;
+  }
+  
+  .select-container label {
+    color: #000;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .select-container select {
+    border: none;
+    font-size: 16px;
+    padding: 5px;
+    width: 80px;
+  }
+  
+  .select-container span {
+    color: #000;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  
+  .select-container select:focus {
+    outline: none;
+    box-shadow: 0 0 3px #b76bb7;
+  }
+
+
+
+  /*-------------------------------------*/
+
+  .bouton-suivant {
+    background-color: rgb(150, 31, 150);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: auto; 
+    margin-right: auto;
+    display: block; 
+    width: 150px; 
+  }
+  

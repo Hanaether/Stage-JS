@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Profil Client Page</title>
+</head>
+<body>
+    <div class="nav-container">
+        <ul class="nav">
+          <li class="active"><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+        </ul>
+    </div>
+    
+    <div class="info-container">
+        <p>Renseigner vos informations :</p>
+    </div>   
+
+    <div class="select-container">
+        <label for="weight">Poids</label>
+        <select id="weight" name="weight" class="select-box"></select>
+        <span>kg</span>
+    </div>
+    <div class="select-container">
+        <label for="height">Taille</label>
+        <select id="height" name="height" class="select-box"></select>
+        <span>cm</span>
+    </div>
+    <div class="select-container">
+        <label for="chest-height">Tour de poitrine</label>
+        <select id="chest-height" name="chest-height" class="select-box"></select>
+        <span>cm</span>
+    </div>
+    <div class="select-container">
+      <table>
+        <tr>
+          <td rowspan="2"><label for="bra">Soutien-gorge</label></td>
+          <td><select id="bra" name="bra" class="select-box"></select></td>
+          <td rowspan="2"><span>cm</span></td>
+        </tr>
+    
+        <tr>
+          <td><select id="bra2" name="bra2" class="select-box"></select></td>
+        </tr>
+      </table>
+    </div>
+    <div class="select-container">
+        <label for="age">Age</label>
+        <select id="age" name="age" class="select-box"></select>
+        <span>ans</span>
+    </div>
+
+    <button class="bouton-suivant">SUIVANT</button>
+
+    <script src="app.js"></script>
+</body>
+</html>
